@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RecipeJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>🍳 RecipeJS</h1>
+        <p>Your Functional Cooking Companion</p>
+
+        <div class="filters">
+            <button onclick="filterRecipes('all')">All</button>
+            <button onclick="filterRecipes('easy')">Easy</button>
+            <button onclick="filterRecipes('medium')">Medium</button>
+            <button onclick="filterRecipes('hard')">Hard</button>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <div id="recipe-container"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
